@@ -1,0 +1,6 @@
+framework module Pods_HLWCyclicScrollView_Tests {
+  umbrella header "Pods-HLWCyclicScrollView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

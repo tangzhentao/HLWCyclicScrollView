@@ -1,0 +1,6 @@
+framework module HLWCyclicScrollView {
+  umbrella header "HLWCyclicScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

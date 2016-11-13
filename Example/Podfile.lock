@@ -1,0 +1,16 @@
+PODS:
+  - HLWCyclicScrollView (0.1.0)
+
+DEPENDENCIES:
+  - HLWCyclicScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  HLWCyclicScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HLWCyclicScrollView: 1d7ff5d81b3db6510989fb48bd2a8940449cfcc9
+
+PODFILE CHECKSUM: 838f1fa9b3d0b8355be5642f9ada9e78a9e93761
+
+COCOAPODS: 1.1.0.rc.3

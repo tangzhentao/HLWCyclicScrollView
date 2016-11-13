@@ -8,7 +8,7 @@
 
 #import "HLWCyclicScrollView.h"
 #import "HLWDoubleLinkedCircularList.h"
-//#import "UIImageView+MJWebCache.h"
+#import "UIImageView+WebCache.h"
 #import "ConstraintPack.h"
 
 @interface HLWCyclicScrollView () <UIScrollViewDelegate>
@@ -112,7 +112,7 @@
     // set content size
     _scrollView.contentSize = CGSizeMake(3 * _scrollView.frame.size.width, _scrollView.frame.size.height);
     // set background color
-    _scrollView.backgroundColor = ContentBackgroundColor;
+    _scrollView.backgroundColor = [UIColor groupTableViewBackgroundColor];
     // enbale page
     _scrollView.pagingEnabled = YES;
     // set delegate
@@ -165,7 +165,7 @@
         // content is string
         if ([content hasPrefix:@"http://"]) {
             // content is image url
-            [imageViwe setImageURLStr:content placeholder:[UIImage imageNamed:_placeholderImageName]];
+            [imageViwe sd_setImageWithURL:[NSURL URLWithString:content] placeholderImage:[UIImage imageNamed:_placeholderImageName]];
         } else {
             // content is image name
             imageViwe.image = [UIImage imageNamed:content];

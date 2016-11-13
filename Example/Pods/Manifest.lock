@@ -1,5 +1,11 @@
 PODS:
-  - HLWCyclicScrollView (0.1.0)
+  - ConstraintPack (0.1.1)
+  - HLWCyclicScrollView (0.0.1):
+    - ConstraintPack
+    - SDWebImage (~> 3.8.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
 
 DEPENDENCIES:
   - HLWCyclicScrollView (from `../`)
@@ -9,7 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HLWCyclicScrollView: 1d7ff5d81b3db6510989fb48bd2a8940449cfcc9
+  ConstraintPack: f51d8b95c176e9aff25bcbefdb40d69d919a8884
+  HLWCyclicScrollView: 3fd59b2c7fdfed44252f66655c2730e17b7ebdd6
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
 PODFILE CHECKSUM: 838f1fa9b3d0b8355be5642f9ada9e78a9e93761
 

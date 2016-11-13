@@ -1,0 +1,6 @@
+framework module ConstraintPack {
+  umbrella header "ConstraintPack-umbrella.h"
+
+  export *
+  module * { export * }
+}

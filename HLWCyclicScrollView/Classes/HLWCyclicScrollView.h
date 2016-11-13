@@ -30,7 +30,7 @@ typedef NS_ENUM(NSUInteger, PageControlPosition)
 
 @property (strong, nonatomic) NSArray * contentArray;
 
-@property (strong, nonatomic) NSString * placeholderImageName; // 站位图
+@property (strong, nonatomic) NSString * placeholderImageName; // 占位图
 
 @property (assign, nonatomic) id<HLWCyclicScrollViewDelegate> delegate;
 

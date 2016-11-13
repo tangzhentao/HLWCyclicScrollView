@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HLWCyclicScrollView_Example' do
+  pod 'HLWCyclicScrollView', :path => '../'
+
+  target 'HLWCyclicScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
